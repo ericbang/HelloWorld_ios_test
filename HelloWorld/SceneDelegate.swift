@@ -1,8 +1,7 @@
 //
 //  SceneDelegate.swift
 //  HelloWorld
-//
-//  Created by ericbang on 2022/09/24.
+// 
 //
 
 import UIKit

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6423FB3428E890090021D12E /* LaunchScreen2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6423FB3328E890090021D12E /* LaunchScreen2.storyboard */; };
 		6464DA9828DF110200763A6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6464DA9728DF110200763A6F /* AppDelegate.swift */; };
 		6464DA9A28DF110200763A6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6464DA9928DF110200763A6F /* SceneDelegate.swift */; };
 		6464DA9C28DF110200763A6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6464DA9B28DF110200763A6F /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6423FB3328E890090021D12E /* LaunchScreen2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen2.storyboard; sourceTree = "<group>"; };
 		6464DA9428DF110200763A6F /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6464DA9728DF110200763A6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6464DA9928DF110200763A6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				6464DA9728DF110200763A6F /* AppDelegate.swift */,
 				6464DA9928DF110200763A6F /* SceneDelegate.swift */,
 				6464DA9B28DF110200763A6F /* ViewController.swift */,
+				6423FB3328E890090021D12E /* LaunchScreen2.storyboard */,
 				6464DA9D28DF110200763A6F /* Main.storyboard */,
 				6464DAA028DF110600763A6F /* Assets.xcassets */,
 				6464DAA228DF110600763A6F /* LaunchScreen.storyboard */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6423FB3428E890090021D12E /* LaunchScreen2.storyboard in Resources */,
 				6464DAA428DF110600763A6F /* LaunchScreen.storyboard in Resources */,
 				6464DAA128DF110600763A6F /* Assets.xcassets in Resources */,
 				6464DA9F28DF110200763A6F /* Main.storyboard in Resources */,
@@ -290,10 +294,12 @@
 				DEVELOPMENT_TEAM = R9RT478PDH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "헬로우 월드";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen2;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,7 +310,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -318,10 +324,12 @@
 				DEVELOPMENT_TEAM = R9RT478PDH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "헬로우 월드";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen2;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -332,7 +340,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
